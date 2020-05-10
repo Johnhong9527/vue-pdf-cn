@@ -9,7 +9,7 @@ Solve Chinese garbled problem
 ## Install
 
 ```bash
-npm install --save vue-pdf-zh
+npm install --save vue-pdf-cn
 ```
 
 ## Example - basic
@@ -20,7 +20,7 @@ npm install --save vue-pdf-zh
 </template>
 
 <script>
-import pdf from 'vue-pdf-zh'
+import pdf from 'vue-pdf-cn'
 
 export default {
   components: {
