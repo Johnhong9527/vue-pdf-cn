@@ -173,7 +173,7 @@ export default {
     };
   },
   mounted() {
-    this.src.then((pdf) => {
+    this.src.promise.then((pdf) => {
       this.numPages = pdf.numPages;
     });
   },
